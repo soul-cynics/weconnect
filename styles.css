@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Readex Pro;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 3em;
+    color: black;
+    font-weight: bold;
+}
+
+.content-section {
+    margin: 1em;
+    color: LightBlue;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .50em;
+    cursor: pointer;
+    color: antiquewhite;
+    background-color: #0067a5;
+    border: none;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: #89cff0;
+
+}
+
+.item {
+    margin: 30px;
+}
+
+.color {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.item-image {
+    height: 350px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.price {
+    flex-grow: .9;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

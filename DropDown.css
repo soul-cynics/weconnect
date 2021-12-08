@@ -1,0 +1,95 @@
+body{
+	background: #dedede;
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+}
+.dropdown{
+	margin: 0 auto;
+}
+nav{
+	height: 60px;
+	background: transparent;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+.logo{
+	padding:0;
+	width: 200px;
+	height: 70px;
+	margin-down: 50px;
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+	float: right;
+	margin-right: 30px;
+}
+nav ul li{
+	background-color: #BCC6CC;
+	position: relative;
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a{
+	display: block;
+	padding: 0 22px;
+	color:black;
+	text-decoration: none;
+	line-height: 60px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+}
+nav ul li a:hover{
+	color: white;
+	boarder-radius: 6px;
+	transition: 0.5s;
+}
+nav ul ul{
+	position: absolute;
+	top: 60px;
+	display: none;
+}
+nav ul li:hover > ul{
+	display: block;
+	
+}
+nav ul ul li{
+	width: 180px;
+	float: none;
+	display: list-item;
+	position: relative;
+	border: 2px solid white;
+	background-color: #BCC6CC;
+	
+}
+nav ul ul ul li{
+	position: relative;
+	top: -60px;
+	right: 150px;
+}
+.body{
+	padding: 0 20px;	
+}
+.body img{
+	margin: 2em 0;
+	float: right;
+	width: 430px;
+	height: 410px;
+	padding: 0 5px 0 0;
+	shape-outside: circle(50%);
+	margin-right: 1.5rem;
+	
+}
+.body p{
+	margin: 2em 0;
+	padding: 1em;
+	text-align 2em: justify;
+	font-size: 38px;
+	font-family: Courier New;
+	color:#AAF0D1;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: 2px solid black;
+
+}

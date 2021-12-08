@@ -1,0 +1,54 @@
+nav ul li{
+	list-style-type: none;
+	border: 2px solid black;
+	width: 75px;
+	
+}
+nav ul li a{
+	display: block;
+	width: 73px;
+	padding: 50 50px;
+	color: pink;
+	text-decoration: none;
+	line-height: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: arial;
+}
+nav ul li a:hover{
+	color: white;
+	background-color: black;
+	boarder-radius: 6px;
+	transition: 0.5s;
+}
+
+.container
+{
+	margin: 0px auto;
+	width: 500% auto;
+	padding: 0px;
+}
+img
+{
+	float: left;
+	width: 350px;
+	height: 500px;
+	padding: 0 10px 0 0;
+
+}
+.text
+{
+	margin: 2em 0;
+	padding: 2em; 
+	text-align 2em: justify;
+	font-size: 30px;
+	font-family: cambria;
+	color: white;
+	
+}
+body{
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size: 100% 100%;
+}
